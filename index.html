@@ -8,7 +8,7 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 </head>
 <body>
-  <header>
+  <header class="fixed-top">
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container">
       <a class="navbar-brand" href="#hero">Animes</a>
@@ -46,6 +46,103 @@
     </div>
   </nav>
   </header>
+  <main>
+    <section id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://images6.alphacoders.com/799/thumb-1920-799054.jpg" class="d-block w-100" alt="Full metal Alchemist" style=" height: 100vh; object-fit: cover;" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Full Metal Alchemist</h5>
+            <p>"Fullmetal Alchemist" es un popular manga y anime creado por Hiromu Arakawa. La historia se desarrolla en un mundo ficticio en el que la alquimia es una ciencia ampliamente practicada.</p>
+            <div class="mb-2">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            </div>
+          </div>
+        </div>
+        <div  class="carousel-item" >
+          <img src="https://dw9to29mmj727.cloudfront.net/promo/2016/5252-SeriesHeaders_HxH_2000x800.jpg" class="d-block w-100" alt="Dragon Ball" style=" height: 100vh; object-fit: cover;"  />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Hunter x Hunter</h5>
+            <p>
+              "Hunter x Hunter" sigue a Gon Freecss, un niño que aspira a ser un Cazador como su desaparecido padre. En su búsqueda, forma amistades, se enfrenta a desafíos peligrosos y explora un mundo lleno de criaturas extraordinarias y secretos profundos.</p>
+              <div class="mb-2">
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-secondary">Secondary</button>
+                </div>
+          </div>
+        </div>
+        <div class="carousel-item" >
+          <img src="https://images2.alphacoders.com/516/516664.jpg" class="d-block w-100" alt="one piece" style=" height: 100vh; object-fit: cover;"/>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>One Piece</h5>
+            <p>
+              "One Piece" es un manga y anime extremadamente popular creado por Eiichiro Oda. La historia se centra en Monkey D. Luffy, un joven con el sueño de convertirse en el "Rey de los Piratas".</p>
+              <div class="mb-2">
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-secondary">Secondary</button>
+                </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+    <section class="py-5" id="latest">
+      <div class="container d-flex flex-column gap-4">
+        <h2 class="text-center">Los ultimos animes</h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="https://1.bp.blogspot.com/-ukJWzUSfszI/YRGjma5xRuI/AAAAAAAAA5I/83X0xetXd_oRbBu1LQXhEP9mtu5jZAPowCLcBGAsYHQ/w1200-h630-p-k-no-nu/5c5386031b259c26f271ead5003eab2b.jpg" class="card-img-top" alt="Black Clover">
+              <div class="card-body">
+                <h5 class="card-title">Black Clover</h5>
+                <p class="card-text">"Black Clover" es un popular anime y manga creado por Yūki Tabata. La historia está ambientada en un mundo de magia, donde la magia es una parte fundamental de la vida de las personas. El protagonista, Asta, es un joven huérfano sin la capacidad de usar magia, lo que es inusual en su sociedad donde la magia es común.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://easycdn.es/1/imagenes/animanga-0_345978.jpg" class="card-img-top" alt="Blue Lock">
+              <div class="card-body">
+                <h5 class="card-title">Blue Lock</h5>
+                <p class="card-text">"Blue Lock" es un manga y anime que se centra en el fútbol y que fue creado por Muneyuki Kaneshiro y Yuusuke Nomura. La historia se desarrolla en un mundo en el que Japón ha experimentado un declive en su desempeño futbolístico internacional y busca desesperadamente un jugador capaz de llevar al país a la gloria en la Copa del Mundo.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://i.pinimg.com/originals/9b/81/98/9b8198063b7c85b31f1c177274c2991b.jpg" class="card-img-top" alt="Mushoku tensei">
+              <div class="card-body">
+                <h5 class="card-title">Mushoku Tensei</h5>
+                <p class="card-text">"Mushoku Tensei: Jobless Reincarnation" es una serie de novelas ligeras japonesas que pertenecen al género isekai, donde un personaje es transportado a un mundo diferente. La historia sigue a Rudeus Greyrat, un hombre de mediana edad que, después de una vida de fracasos y arrepentimientos en su vida anterior en la Tierra, renace en un mundo de fantasía como un bebé con todos sus recuerdos y conocimientos previos intactos.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://2.bp.blogspot.com/-Qn37R-PHN6I/V-VOXqG1JnI/AAAAAAAAAP4/l5iqXKYrfCY29J5Vg4ji0oriivSh2eJBwCLcB/s1600/00b_57b4a37a50b2b.jpg" class="card-img-top" alt="Owari no Seraph">
+              <div class="card-body">
+                <h5 class="card-title">Owari no Seraph</h5>
+                <p class="card-text">"Owari no Seraph" (también conocido como "Seraph of the End") es un manga y anime creado por Takaya Kagami, Daisuke Furuya y Yamato Yamamoto. La historia está ambientada en un mundo posapocalíptico en el que la humanidad ha sido diezmada por un misterioso virus que solo afecta a las personas mayores de 13 años, dejando a los niños como los únicos sobrevivientes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
